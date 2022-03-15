@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScorpCaseApp</string>
+    <string name="no_data_description">Kullanıcı Listesi Boş. Sayfayı Yenilemeyi Deneyebilirsin.</string>
+    <string name="error_description">Veriler Yüklenirken Bir Hata Oluştu. Sayfayı Yenilemeyi Deneyebilirsin.\nHata Kodu: %s</string>
+    <string name="no_data_action">Yeniden Yükle</string>
+    <string name="loading_title">Yükleniyor..</string>
+</resources>
