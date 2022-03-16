@@ -9,7 +9,6 @@ abstract class RecyclerViewPaginator(recyclerView: RecyclerView) : RecyclerView.
 
     /*
      * This is the Page Limit for each request
-     * i.e. every request will fetch 19 transactions
      * */
     var batchSize: Long = 0
 
