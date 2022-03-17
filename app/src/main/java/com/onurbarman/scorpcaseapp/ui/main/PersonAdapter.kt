@@ -38,11 +38,14 @@ class PersonAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 
     fun submitList(list: List<Person>?) {
-        if (list == null)
-            return
-        val personList = differ.currentList.toMutableList()
-        personList.addAll(list)
-        differ.submitList(personList.toSet().toList())
+        if (list == null){
+            differ.submitList(null)
+        }
+        else {
+            val personList = differ.currentList.toMutableList()
+            personList.addAll(list)
+            differ.submitList(personList.toSet().toList())
+        }
     }
 
     class PersonViewHolder constructor(private val binding: ItemPersonBinding) :
